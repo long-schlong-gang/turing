@@ -5,7 +5,7 @@ import (
 
 	"github.com/teris-io/cli"
 
-	"turing/commands"
+	"github.com/long-schlong-gang/turing-cli/commands"
 )
 
 func main() {

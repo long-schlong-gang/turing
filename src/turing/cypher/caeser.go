@@ -8,19 +8,17 @@ package cypher
 *
  */
 
-import (
-	"github.com/long-schlong-gang/turing"
-)
+// TODO: Actually implement this basic-ass cypher, lol
 
 type CaesarCypher struct {
-	turing.Cypher
+	Cypher
 }
 
-func (c *CaesarCypher) Encypher(plain string, key turing.Key) string {
+func (c *CaesarCypher) Encypher(plain string, key Key) string {
 	return plain
 }
 
-func (c *CaesarCypher) Decypher(plain string, key turing.Key) string {
+func (c *CaesarCypher) Decypher(plain string, key Key) string {
 	return plain + " - Romani ite domum!"
 }
 
@@ -32,6 +30,6 @@ func (c *CaesarCypher) Confidence(plain string) float32 {
 	return 0.0
 }
 
-func (c *CaesarCypher) KeyType() turing.KeyType {
-	return turing.IntKey
+func (c *CaesarCypher) KeyType() KeyType {
+	return IntKey
 }

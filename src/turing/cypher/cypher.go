@@ -1,4 +1,4 @@
-package turing
+package cypher
 
 import "strconv"
 

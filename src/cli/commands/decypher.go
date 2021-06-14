@@ -7,8 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"turing/cypher"
-	"turing/turing"
+	"github.com/long-schlong-gang/turing"
 
 	"github.com/andybalholm/crlf"
 	"github.com/teris-io/cli"
